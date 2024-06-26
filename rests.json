@@ -2,30 +2,38 @@
     {
         "name": "Describe Account",
         "salesforce": true,
-        "details":         {
+        "details": {
             "method": "GET",
             "endpoint": "/services/data/v61.0/sobjects/Account/describe"
         }
     },
-
     {
         "name": "Describe Contact",
         "salesforce": true,
-        "details":         {
+        "details": {
             "method": "GET",
             "endpoint": "/services/data/v61.0/sobjects/Contact/describe"
         }
     },
-
-
     {
         "name": "Get Users Deno",
         "salesforce": false,
-        "details":         {
+        "details": {
             "method": "GET",
             "endpoint": "https://mohanc-rest.deno.dev/users/1"
         }
+    },
+    {
+        "name": "Sample POST",
+        "salesforce": false,
+        "details": {
+            "method": "POST",
+            "endpoint": "https://jsonplaceholder.typicode.com/posts",
+            "body": {
+                "title": "foo",
+                "body": "bar",
+                "userId": 1
+            }
+        }
     }
-
-
 ]
