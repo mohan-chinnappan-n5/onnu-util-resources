@@ -6,5 +6,13 @@
     {
         "name": "Get Contacts",
         "query": " SELECT Id, FirstName, LastName\n  FROM Contact \nLIMIT 10 "
+    },
+
+    {
+        "name": "Get SourceMember",
+        "query": "     SELECT Id, LastModifiedBy.Name, MemberIdOrName, MemberType, MemberName, RevisionNum, RevisionCounter, IsNameObsolete, LastModifiedById, IsNewMember, ChangedBy FROM SourceMember  " 
     }
+
+
+
 ]
