@@ -26,11 +26,11 @@
     },
 
     {
-        "name": "Get CRMA Dashbords",
+        "name": "Get CRMA Dashboards",
         "salesforce": true,
         "details": {
             "method": "GET",
-            "endpoint": "/services/data/v61.0/wave/dashbords"
+            "endpoint": "/services/data/v61.0/wave/dashboards"
         }
     },
 
