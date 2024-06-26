@@ -35,6 +35,15 @@
     },
 
     {
+        "name": "Get CRMA Limits",
+        "salesforce": true,
+        "details": {
+            "method": "GET",
+            "endpoint": "/services/data/v61.0/wave/limits"
+        }
+    },
+
+    {
         "name": "Get Users Deno",
         "salesforce": false,
         "details": {
