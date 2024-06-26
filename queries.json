@@ -14,5 +14,12 @@
     }
 
 
+    {
+        "name": "ProfileLayout (Tooling)",
+        "query": "SELECT LayoutId, Layout.Name, ProfileId, Profile.Name, RecordTypeId, TableEnumOrId FROM ProfileLayout WHERE Profile.Name ='System Administrator' "
+     }
+
+
+
 
 ]
