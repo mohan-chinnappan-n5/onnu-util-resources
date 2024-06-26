@@ -15,6 +15,25 @@
             "endpoint": "/services/data/v61.0/sobjects/Contact/describe"
         }
     },
+
+    {
+        "name": "Get CRMA Recipes",
+        "salesforce": true,
+        "details": {
+            "method": "GET",
+            "endpoint": "/services/data/v61.0/wave/recipes"
+        }
+    },
+
+    {
+        "name": "Get CRMA Dashbords",
+        "salesforce": true,
+        "details": {
+            "method": "GET",
+            "endpoint": "/services/data/v61.0/wave/dashbords"
+        }
+    },
+
     {
         "name": "Get Users Deno",
         "salesforce": false,
