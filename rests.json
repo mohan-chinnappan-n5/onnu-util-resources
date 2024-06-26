@@ -1,0 +1,31 @@
+[
+    {
+        "name": "Describe Account",
+        "salesforce": true,
+        "details":         {
+            "method": "GET",
+            "endpoint": "/services/data/v61.0/sobjects/Account/describe"
+        }
+    },
+
+    {
+        "name": "Describe Contact",
+        "salesforce": true,
+        "details":         {
+            "method": "GET",
+            "endpoint": "/services/data/v61.0/sobjects/Contact/describe"
+        }
+    },
+
+
+    {
+        "name": "Get Users Deno",
+        "salesforce": false,
+        "details":         {
+            "method": "GET",
+            "endpoint": "https://mohanc-rest.deno.dev/users/1"
+        }
+    }
+
+
+]
