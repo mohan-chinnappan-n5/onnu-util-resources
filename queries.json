@@ -5,6 +5,6 @@
     },
     {
         "name": "Get Contacts",
-        "query": " SELECT Id, FirstName, LastName\n FROM Contact \nLIMIT 10 "
+        "query": " SELECT Id, FirstName, LastName\n  FROM Contact \nLIMIT 10 "
     }
 ]
