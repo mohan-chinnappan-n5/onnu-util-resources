@@ -1,5 +1,10 @@
 [
-{"name": "Get Accounts", "query": "SELECT Id, Name FROM Account LIMIT 10"},
-{"name": "Get Contacts", "query": " SELECT Id, FirstName, LastName FROM Contact LIMIT 10 "}
-
+    {
+        "name": "Get Accounts",
+        "query": "SELECT Id, Name \nFROM Account \nLIMIT 10"
+    },
+    {
+        "name": "Get Contacts",
+        "query": " SELECT Id, FirstName, LastName\n FROM Contact \nLIMIT 10 "
+    }
 ]
