@@ -10,7 +10,7 @@
 
     {
         "name": "Get SourceMember (Tooling)",
-        "query": "     SELECT Id, LastModifiedBy.Name, MemberIdOrName, MemberType, MemberName, RevisionNum, RevisionCounter, IsNameObsolete, LastModifiedById, IsNewMember, ChangedBy FROM SourceMember  " 
+        "query": " SELECT Id, LastModifiedBy.Name, MemberIdOrName, MemberType, MemberName, RevisionNum, RevisionCounter, IsNameObsolete, LastModifiedById, IsNewMember, ChangedBy FROM SourceMember  " 
     }
 
 
